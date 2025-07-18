@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gradient-to-br from-gray-900 to-gray-800 min-h-screen">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xProject Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex items-center justify-center min-h-screen">
+    <div class="bg-white/5 backdrop-blur-lg border border-white/10 p-10 rounded-3xl shadow-2xl w-full max-w-md text-white">
+      <h1 class="text-3xl font-bold mb-6 text-center">Welcome Back</h1>
+      
+      <form class="space-y-5">
+        <div>
+          <label class="block text-sm mb-1" for="email">Email</label>
+          <input type="email" id="email" placeholder="your@email.com"
+                 class="w-full px-4 py-2 rounded-xl bg-white/10 border border-white/20 focus:outline-none focus:ring-2 focus:ring-indigo-400 placeholder-gray-300 text-white" required />
+        </div>
+
+        <div>
+          <label class="block text-sm mb-1" for="password">Password</label>
+          <input type="password" id="password" placeholder="••••••••"
+                 class="w-full px-4 py-2 rounded-xl bg-white/10 border border-white/20 focus:outline-none focus:ring-2 focus:ring-indigo-400 placeholder-gray-300 text-white" required />
+        </div>
+
+        <div class="text-right text-sm mb-4">
+          <a href="#" class="text-indigo-400 hover:underline">Forgot password?</a>
+        </div>
+
+        <button type="submit"
+                class="w-full py-2 rounded-xl bg-indigo-500 hover:bg-indigo-600 transition duration-200 font-semibold text-white">
+          Sign In
+        </button>
+      </form>
+
+      <div class="mt-6 text-sm text-center">
+        Don’t have an account?
+        <a href="#" class="text-indigo-400 hover:underline">Sign up</a>
+      </div>
+    </div>
+  </body>
+</html>
